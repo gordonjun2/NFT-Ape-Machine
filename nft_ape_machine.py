@@ -7,7 +7,7 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 ## Input Etherscan API
 eth = Etherscan("3JUNYUHPT9UKSZNM3UMX1WDB8P3TZXEHTH") # key in quotation marks
 
-WEBHOOK_URL = 'https://discord.com/api/webhooks/958388276480327690/aF9nq0YYaeN4mHZiGlwRkhsHWtMNthie0v4W-WA6fsST_CmyXMxBbt8dLBA60SYyzHFH'
+WEBHOOK_URL = ''
 
 webhook = DiscordWebhook(url=WEBHOOK_URL, rate_limit_retry=True)
 
